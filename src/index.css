@@ -1,0 +1,101 @@
+:root {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.header {
+  margin: 70px 0 20px 40px;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+.number {
+  font-size: 20px;
+  color: blue;
+}
+
+.sideBar {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.buttons {
+  padding: 20px 20%;
+}
+
+.statistics {
+  display: flex;
+}
+
+.cards {
+  background-color: beige;
+  margin: 10px 2%;
+  width: 200px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px grey;
+}
+.revenue {
+  margin: 10px 1%;
+  background-color: beige;
+  width: 50%;
+  height: 500px;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px grey;
+}
+
+.recentTransaction {
+  margin: 10px 1%;
+  background-color: beige;
+  width: 50%;
+  height: 500px;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px grey;
+}
+
+.mainBottom {
+  display: flex;
+  margin: 0 15px;
+}
+
+.transaction {
+  display: flex;
+  align-items: center;
+  padding: 10px 0 10px 50px;
+}
+
+.trData {
+  width: 30%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  border: 1px solid blue;
+  border-radius: 5px;
+}
+
+.recentTransactionList {
+  max-height: 300px; /* Adjust this value as needed */
+  overflow-y: auto; /* Enables vertical scrolling */
+}
+
+.txId {
+  color: rgb(72, 255, 72);
+}
+
+.cost {
+  padding: 10px;
+  background-color: rgb(72, 255, 72);
+  border-radius: 10px;
+}
